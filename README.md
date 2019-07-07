@@ -1,6 +1,6 @@
 # Whois Python 3
 
-Este script te permite analizar un dominio para saber información sobre el propietario, así también como la fecha en la que se registró, entre varias cosas más. 
+This script allows you to analyze a domain to know information about the owner, as well as the date on which it was registered, among several other things.
 
 ## About the program
 ### How to install it?
