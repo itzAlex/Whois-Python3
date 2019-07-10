@@ -9,7 +9,7 @@ As in any other Github project you have to clone it on your PC
 git clone https://github.com/itzAlex/Whois-Python3/
 ```
 ### How to use it?
-To use it is quite easy, just open a terminal in the project folder and type:
+To use it is quite easy, just open a terminal in the project folder and type
 ```
 python main.py
 ```
