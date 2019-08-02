@@ -1,8 +1,15 @@
 # Analyzer of the received information
 # Author: @itzAlex
 
-from prettytable import PrettyTable
 import os
+try:
+	from prettytable import PrettyTable
+except ImportError:
+	try:
+		os.system("pip install prettytable")
+	except:
+		print("PrettyTable wasn't found in the system, tried to install it but could not.")
+
 
 Registrar_Data_Delete = "We will display stored WHOIS data for up to 30 days. Make Private Now "
 
@@ -39,7 +46,6 @@ def analyze():
 
 	for i in range(0, len(Name_Servers_Split), 2):
 		Row = []
-
 		IPs = Row.append(Name_Servers_Split[i])
 		Domains = Row.append(Name_Servers_Split[i+1])
 		Table_Name_Servers.add_row(Row)
