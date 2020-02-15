@@ -1,5 +1,6 @@
 # Analyzer of the received information
 # Author: @itzAlex
+# Not final version (WIP)
 
 import os
 try:
