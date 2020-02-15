@@ -1,5 +1,6 @@
 # Who.is website analyzer for Python 3
 # Author: @itzAlex
+# Not final version (WIP)
 
 import os
 import requests
