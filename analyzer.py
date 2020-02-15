@@ -54,7 +54,7 @@ def analyze():
 
 	print("\n", "----------------Registrar Info----------------".center(center_output), "\n\n", Name_Registrar_Info.replace("Name", "Name:", 1), "\n", Whois_Server_Registrar_Info.replace("Whois Server", "Whois server:", 1), "\n", Referral_URL_Registrar_Info.replace("Referral URL", "Referral URL:", 1), "\n", Status_Registrar_Info.replace("Status", "Status:", 1))
 	print("\n", "----------------Important Dates----------------".center(center_output), "\n\n", Expires_On_Important_Dates.replace("Expires On", "Expires On:", 1), "\n", Registered_On_Important_Dates.replace("Registered On", "Registered On:", 1), "\n", Updated_On_Important_Dates.replace("Updated On", "Updated On:", 1))
-	print("\n", "----------------Name Servers----------------".center(center_output)); print(" "); print(Table_Name_Servers) # Used print() instead of "\n" because of an unknown space in the new line
+	print("\n", "----------------Name Servers----------------".center(center_output)); print(" "); print(Table_Name_Servers)
 	print("\n", "----------------Similar Domains----------------".center(center_output), "\n\n", Similar_Domains)
 	print("\n", "----------------Registrar Data----------------".center(center_output), "\n"); print(" "); print(Registrar_Data.replace(Registrar_Data_Delete, ""))
 	print("\n\n\n", Information_Updated.center(center_output))
